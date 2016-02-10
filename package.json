@@ -25,7 +25,9 @@
         "jwt",
         "autho0",
         "dashboard",
-        "boilerplate"
+        "boilerplate",
+        "webvr",
+        "aframe"
     ],
     "author": "whatifif <whatifif@yahoo.com> (http://github.com/whatifif)",
     "license": "MIT",
