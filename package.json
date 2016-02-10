@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-starter-kit",
+  "name": "react-webvr",
   "version": "0.0.1",
-  "description": "Yet another React/Redux Starter Kit",
+  "description": "WebVR using aframe and react",
   "scripts": {
     "start": "babel-node server.js",
     "build": "rimraf dist && NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloudmu/react-redux-starter-kit.git"
+    "url": "https://github.com/whatifif/react-webvr.git"
   },
   "keywords": [
     "react",
@@ -26,12 +26,12 @@
     "dashboard",
     "boilerplate"
   ],
-  "author": "Yunjun Mu <yunjun.mu@gmail.com> (http://github.com/cloudmu)",
+  "author": "whatifif <whatifif@yahoo.com> (http://github.com/whatifif)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloudmu/react-redux-starter-kit/issues"
+    "url": "https://github.com/whatifif/react-webvr.git/issues"
   },
-  "homepage": "https://github.com/cloudmu/react-redux-starter-kit",
+  "homepage": "https://github.com/whatifif/react-webvr.git",
   "dependencies": {
     "isomorphic-fetch": "^2.1.1",
     "lodash": "^3.10.1",
