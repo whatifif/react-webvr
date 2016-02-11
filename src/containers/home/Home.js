@@ -10,7 +10,7 @@ export default class Home extends Component {
           <div className="container">
             <h1 className="display-3">Yet Another Web App Starter Kit</h1>
             <p className="lead">
-            This is yet another React based web application starter kit.
+            This is to demonstrate webVR.
             However, this one attempts to go beyond the typical simple boilerplates, by showcasing several great
             technologies (such as
               <a href="https://github.com/facebook/react" target="_blank"> React</a>,
