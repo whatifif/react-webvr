@@ -3,3 +3,4 @@ dist/
 PROJECT.md
 .project
 .idea/
+*.log
