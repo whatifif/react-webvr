@@ -3,8 +3,12 @@ import React from 'react';
 const Webvr = () => {
   return (
     <div className="container">
-      <h1 className="display-3">WebVR</h1>
-
+      
+      <p>
+        <h1 className="display-3">WebVR
+        <button className="btn btn-default pull-right">Into WebVR</button>
+        </h1> 
+      </p>
       <p>
         Thanks for checking this out. This project was created by
         <a href="https://twitter.com/yunjun_mu" target="_blank"> @yunjun_mu</a>,
