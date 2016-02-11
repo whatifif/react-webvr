@@ -17,6 +17,7 @@ import UsersPage from './containers/user/UsersPage';
 import ReposPage from './containers/repo/ReposPage';
 import About from './containers/about/About';
 import NotFound from './containers/misc/NotFound';
+import Webvr from './containers/webvr/Webvr';
 
 import './index.css';
 
@@ -28,6 +29,7 @@ ReactDOM.render(
     <Router history={history}>
         <Route path="/" component={App}>
           <IndexRoute component={Home}/>
+          <Route path="/webvr" component={Webvr}/>
           <Route path="/about" component={About}/>
           <Route path="/login" component={Login}/>
           <Route component={RestrictPage}>
