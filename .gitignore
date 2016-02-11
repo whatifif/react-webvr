@@ -1,4 +1,5 @@
 node_modules/
 dist/
 PROJECT.md
-/.project
+.project
+.idea/
