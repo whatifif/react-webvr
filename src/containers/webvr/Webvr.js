@@ -2,7 +2,8 @@ require('aframe-core');
 import {Animation, Entity, Scene} from 'aframe-react';
 import React from 'react';
 
-const Webvr = () => {
+const Webvr = (props) => {
+  console.log(props);
   if(false){
      return (
         <Scene>

@@ -50,9 +50,10 @@ App.contextTypes = {
 };
 
 const mapStateToProps = (state) => {
-  const { auth } = state;
+  const { auth, toggleWebVR } = state;
   return {
-    user: auth ? auth.user : null
+    user: auth ? auth.user : null,
+    vrMode: toggleWebVR.vrMode
   };
 };
 
