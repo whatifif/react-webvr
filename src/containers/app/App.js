@@ -19,9 +19,17 @@ class App extends Component {
     this.context.history.pushState(null, '/login');
   }
 
-  handleToggleWebVR(){
-    this.props.dispatch(toggleWebVR());
-  }
+    handleToggleWebVR() {
+        this.props.dispatch(toggleWebVR());
+
+        if (this.props.vrMode) {
+            document.getElementsByTagName('canvas')[0].style.display = 'none';
+        } else if (document.getElementsByTagName('canvas')[0]) {
+            document.getElementsByTagName('canvas')[0].style.display = 'block';
+        }
+    }
+
+
 
   render() {
     const { user } = this.props;
