@@ -3,7 +3,7 @@ import {Animation, Entity, Scene} from 'aframe-react';
 import React from 'react';
 
 const Webvr = () => {
-  if(true){
+  if(false){
      return (
         <Scene>
           <Entity geometry={{primitive: 'box'}} material="color: red" position="0 0 -5">
