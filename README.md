@@ -5,9 +5,10 @@
 WebVR using aframe and react.
 
 ### Demo
-A demo of this web application is running on a free [See Demo](https://react-webvr.herokuapp.com/webvr), with very limited resources.
+A demo of this web application is running on a free [See Demo https://react-webvr.herokuapp.com/webvr](https://react-webvr.herokuapp.com/webvr), with very limited resources.
 
 `Click the "Into WebVR" button to enter the WebVR 3D space.`
+
 `Click the button again to exit the WebVR 3D space and return to 2D page.`
 
 ### Project
