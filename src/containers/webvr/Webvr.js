@@ -15,7 +15,7 @@ class WebVRPage extends Component {
 
   render() {
     const { vrMode } = this.props;
-    // console.log(this.props);
+    console.log(this.props);
     if(vrMode){
     return (
         <Scene>
@@ -58,7 +58,7 @@ class WebVRPage extends Component {
 }
 
 WebVRPage.propTypes = {
-  vrMode: PropTypes.boolean
+  vrMode: PropTypes.bool
 };
 
 function mapStateToProps(state) {
