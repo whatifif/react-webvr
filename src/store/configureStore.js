@@ -4,6 +4,7 @@ import createLogger from 'redux-logger';
 import auth from '../reducers/auth';
 import { selectedUsersPage, usersByPage } from '../reducers/users';
 import { selectedReposPage, reposByPage, repoTableSize } from '../reducers/repos';
+import { toggleWebVR } from '../reducers/webvr';
 
 const logger = createLogger();
 const reducer = combineReducers(
@@ -14,6 +15,7 @@ const reducer = combineReducers(
     selectedReposPage,
     reposByPage,
     repoTableSize,
+    toggleWebVR
   }
 );
 

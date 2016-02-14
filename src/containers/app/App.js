@@ -5,7 +5,7 @@ import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 
 import { logout } from '../../actions/auth';
-
+import { toggleWebVR } from '../../actions/webvr';
 import './app.css';
 
 class App extends Component {
@@ -19,12 +19,16 @@ class App extends Component {
     this.context.history.pushState(null, '/login');
   }
 
+  handleToggleWebVR(){
+    this.props.dispatch(toggleWebVR());
+  }
+
   render() {
     const { user } = this.props;
     return (
       <div className="container-fluid">
 
-        <Header user={user} handleLogout={() => this.handleLogout()}/>
+        <Header user={user} handleLogout={() => this.handleLogout()} toggleWebVR={()=>this.handleToggleWebVR()}/>
         <div className="appContent">
           {this.props.children}
         </div>
