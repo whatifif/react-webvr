@@ -34,7 +34,7 @@ export default class Header extends Component {
                 <li title="About" className={isAboutPage ? 'nav-item active' : 'nav-item'}><Link className="nav-link" to="/about">About Us</Link></li>
                 <li title="About" className={isAboutPage ? 'nav-item active' : 'nav-item'}><Link className="nav-link" to="/webvr">WebVR</Link></li>
               </ul>
-              <button className="btn btn-default" onClick={this.props.toggleWebVR}>Into WebVR</button>
+              <button className="btn btn-default" onClick={this.props.toggleWebVR}>{this.props.vrMode?"Outof WebVR":"Into WebVR"}</button>
 
               <ul className="nav navbar-nav pull-xs-right">
                 <li className="dropdown nav-item">
@@ -59,7 +59,8 @@ export default class Header extends Component {
 Header.propTypes = {
   user: PropTypes.string,
   handleLogout: PropTypes.func.isRequired,
-  toggleWebVR: PropTypes.func.isRequired
+  toggleWebVR: PropTypes.func.isRequired,
+  vrMode: PropTypes.bool
 };
 
 Header.contextTypes = {

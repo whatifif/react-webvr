@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="container-fluid">
 
-        <Header user={user} handleLogout={() => this.handleLogout()} toggleWebVR={()=>this.handleToggleWebVR()}/>
+        <Header user={user} handleLogout={() => this.handleLogout()} toggleWebVR={()=>this.handleToggleWebVR()} vrMode={this.props.vrMode}/>
         <div className="appContent">
           {this.props.children}
         </div>
@@ -41,7 +41,8 @@ class App extends Component {
 App.propTypes = {
   user: PropTypes.string,
   children: PropTypes.node.isRequired,
-  dispatch: PropTypes.func.isRequired
+  dispatch: PropTypes.func.isRequired,
+  vrMode: PropTypes.bool
 };
 
 App.contextTypes = {
