@@ -24,3 +24,8 @@
     outline: none;
   }
 
+  #collapsingNavbar .btn{
+    margin-left:10px;
+  }
+
+
