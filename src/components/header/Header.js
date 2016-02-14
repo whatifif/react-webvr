@@ -34,6 +34,7 @@ export default class Header extends Component {
                 <li title="About" className={isAboutPage ? 'nav-item active' : 'nav-item'}><Link className="nav-link" to="/about">About Us</Link></li>
                 <li title="About" className={isAboutPage ? 'nav-item active' : 'nav-item'}><Link className="nav-link" to="/webvr">WebVR</Link></li>
               </ul>
+              <button className="btn btn-default">Into WebVR</button>
 
               <ul className="nav navbar-nav pull-xs-right">
                 <li className="dropdown nav-item">

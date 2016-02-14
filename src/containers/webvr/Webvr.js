@@ -15,7 +15,6 @@ const Webvr = () => {
     return (
       <div className="container">
         <h1 className="display-3">WebVR
-          <button className="btn btn-default pull-right">Into WebVR</button>
         </h1> 
         <p>
           Thanks for checking this out. This project was created by
