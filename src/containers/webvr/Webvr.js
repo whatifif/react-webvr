@@ -22,7 +22,7 @@ class WebVRPage extends Component {
             <WebVRScene />
             <div className="container" >
               <div className="col-md-8">
-                <div style={{position:"relative", zIndex:"-1"}}>
+                <div style={{position:"relative", zIndex:"1"}}>
                   <h1 className="display-3">WebVR</h1> 
                   <p>
                     Welcome to WebVR page.<br/>
@@ -38,7 +38,7 @@ class WebVRPage extends Component {
                   <a href="/about" style={{position:"relative", zIndex:"1"}}>this is test link.</a> 
                 </p>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4" style={{position:"relative", zIndex:"1"}}>
                 <img src={img_url} style={{width:"300px", height:"300px"}}/>
               </div>
             </div>
