@@ -15,8 +15,12 @@ class WebVRPage extends Component {
   render() {
     const { vrMode } = this.props;
     // console.log('img_url', img_url);
+   const style = {position: 'relative', perspective: '800px'};
+   const styleFlip = { transformStyle: 'preserve-3d', transition: 'transform 1s'};
 
     if(vrMode){
+     
+
         return (
           <div>
             <WebVRScene />
@@ -47,8 +51,8 @@ class WebVRPage extends Component {
     }else{
       return (
         <div className="container">
-          <div className="col-md-8">
-            <h1 className="display-3">WebVR</h1> 
+          <div className="col-md-8" style={style}>
+            <h1 className="display-3" style={styleFlip}>WebVR</h1> 
             <p>
               Welcome to WebVR page. <br/>
             </p>
