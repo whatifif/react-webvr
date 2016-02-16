@@ -1,6 +1,6 @@
 import {Entity} from 'aframe-react';
 import React from 'react';
-import sky_img_url from '../../../site/img/puydesancy5.jpg';
+import sky_img_url from '../../../site/img/puydesancy4.jpg';
 
 export default props => (
   <Entity geometry={{primitive: 'sphere', radius: 5000}}
