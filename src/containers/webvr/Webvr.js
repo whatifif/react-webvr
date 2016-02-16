@@ -25,10 +25,10 @@ class WebVRPage extends Component {
             <WebVRScene />
             <div className="container" >
               <div className="col-md-8">
-                <div style={{position:"relative", zIndex:"1"}}>
+                <div style={{position:"relative", zIndex:"1", color:'#fff', textShadow: '2px 2px 4px #000'}}>
                   <h1 className="display-3">WebVR</h1> 
                   <p>
-                    Welcome to WebVR page.<br/>
+                    Welcome to WebVR Demo page.<br/>
                   </p>
                   <p>
                      Click the "Into WebVR" button above to enter the WebVR 3D space.<br/>
@@ -36,9 +36,15 @@ class WebVRPage extends Component {
                   <p>
                      Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
                   </p>
-                </div>
+                  <p>
+                     Drag your mouse on the screen to look around ( the sky will takes time to load )<br/>
+                  </p>
+                  <p>
+                     Use keyboard 'w' 'a' 's' 'd' to move the rotating coffee cup around.<br/>
+                  </p>                
+                 </div>
                 <p>
-                  <a href="/about" style={{position:"relative", zIndex:"1"}}>this is test link.</a> 
+                  <a href="/about" style={{position:"relative", zIndex:"1"}}>This is test link leading to the About page.</a> 
                 </p>
               </div>
               <div className="col-md-4" style={{position:"relative", zIndex:"1"}}>
@@ -52,18 +58,25 @@ class WebVRPage extends Component {
         <div className="container">
           <div className="col-md-8" style={style}>
             <h1 className="display-3" style={styleFlip}>WebVR</h1> 
-            <p>
-              Welcome to WebVR page. <br/>
-            </p>
-            <p>
-               Click the "Into WebVR" button above to enter the WebVR 3D space.<br/>
-            </p>
-            <p>
-               Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
-            </p>
-            <p>
-              <a href="/about">this is test link.</a> 
-            </p>          </div>
+              <p>
+                Welcome to WebVR Demo page.<br/>
+              </p>
+              <p>
+                 Click the "Into WebVR" button above to enter the WebVR 3D space.<br/>
+              </p>
+              <p>
+                 Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
+              </p>
+              <p>
+                 Drag your mouse on the screen to look around ( the sky will takes time to load )<br/>
+              </p>
+              <p>
+                 Use keyboard 'w' 'a' 's' 'd' to move the rotating coffee cup around.<br/>
+              </p>  
+              <p>
+                <a href="/about">This is test link leading to the About page.</a> 
+              </p>
+             </div>
           <div className="col-md-4">
             <img src={img_url} style={{width:"300px", height:"300px"}}/>
           </div>
