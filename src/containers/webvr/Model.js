@@ -7,16 +7,23 @@ export default class Model extends Component {
 
 	render(){
 		return (
-			<div>
-		      <a-entity id="model" position="0 0 -2">
-		        <a-model position="-.35 0 .55" rotation="0 -20 0" scale="1.5 1.5 1.5" src="./dist/man/man.dae"></a-model>
-		      </a-entity>
-		    </div>
+
+		    <Entity loader={{src: 'url(./dist/man/man.dae)', format: 'collada'}}
+              scale="0.7 0.7 0.7"
+              rotation="0 180 0"
+              position="-0.5 -1 -2">
+			</Entity>
 		      );
 
 	}
 
 }
+//--------------------------------------------
+//			<div>
+//		      <a-entity id="model" position="0 0 -2">
+//		        <a-model position="-.35 0 .55" rotation="0 -20 0" scale="1.5 1.5 1.5" src="./dist/man/man.dae"></a-model>
+//		      </a-entity>
+//		    </div>
 //--------------------------------------------
 // import {Entity} from 'aframe-react';
 // import React from 'react';

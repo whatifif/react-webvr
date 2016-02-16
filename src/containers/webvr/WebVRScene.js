@@ -3,6 +3,7 @@ import 'babel-polyfill';
 import {Animation, Entity, Scene} from 'aframe-react';
 import React, { Component, PropTypes } from 'react';
 import Sky from './Sky';
+import Model from './Model';
 import Light from './Light';
 import Cursor from './Cursor';
 import Camera from './Camera';
@@ -40,6 +41,7 @@ export default class WebVRScene extends Component {
                             position="3 2 -5">
                       <Animation attribute="rotation" dur="5000" repeat="indefinite" to="0 360 360"/>
                     </Entity>
+                    <Model/>
                   </Scene>
                 </div>
         );
