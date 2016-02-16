@@ -1,4 +1,4 @@
-import {Entity} from 'aframe-react';
+import {Entity, Animation} from 'aframe-react';
 import React, { Component } from 'react';
 // import model_url from '../../../site/img/man/man.dae';
 // import model_url from '../../../site/img/man/man-color.jpg';
@@ -12,6 +12,7 @@ export default class Model extends Component {
               scale="0.7 0.7 0.7"
               rotation="0 180 0"
               position="-0.5 -1 -2">
+              <Animation attribute="rotation" from="0 -30 0" to="0 330 0" dur="15000" easing="linear" repeat="inifite"/>
 			</Entity>
 		      );
 
