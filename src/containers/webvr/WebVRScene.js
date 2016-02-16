@@ -6,8 +6,7 @@ import Sky from './Sky';
 import Light from './Light';
 import Cursor from './Cursor';
 import Camera from './Camera';
-import photoUrl from '../../../site/img/sugar.jpg';
-console.log(photoUrl);
+import photoUrl from '../../../site/img/coffee.png';
 
 export default class WebVRScene extends Component {
   constructor(props) {
@@ -36,9 +35,9 @@ export default class WebVRScene extends Component {
                     <Light type="directional" intensity="0.5" position="-1 1 0"/>
                     <Light type="directional" intensity="1" position="1 1 0"/>
 
-                    <Entity geometry="primitive: box" material={{src: `url(${photoUrl})`, color: 'white'}}
+                    <Entity geometry="primitive: box" material={{src: `url(${photoUrl})`, transparent:true}}
                             onClick={this.changeColor} onMouseEnter={()=>{}} onMouseLeave={()=>{}}
-                            position="0 0 -5">
+                            position="3 2 -5">
                       <Animation attribute="rotation" dur="5000" repeat="indefinite" to="0 360 360"/>
                     </Entity>
                   </Scene>
