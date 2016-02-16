@@ -12,9 +12,9 @@ A demo of this web application is running on a free [See Demo https://react-webv
 
 `Click the button again to exit the WebVR 3D space and return to 2D page.`
 
-`Drag your mouse on the screen to look around ( the sky will takes time to load )`
+`Drag your mouse on the screen to look around ( ***The sky will take time to load*** )`
 
-`Use your keyboard 'w' 'a' 's' 'd' to move coffee cup around.`
+`Use your keyboard 'w' 'a' 's' 'd' to move the rotating coffee cup around.`
 
 ### Project
 
