@@ -37,7 +37,7 @@ class WebVRPage extends Component {
                      Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
                   </p>
                   <p>
-                     Drag your mouse on the screen to look around ( the sky will takes time to load )<br/>
+                     Drag your mouse on the screen to look around ( the sky will take time to load )<br/>
                   </p>
                   <p>
                      Use keyboard 'w' 'a' 's' 'd' to move the rotating coffee cup around.<br/>
@@ -68,7 +68,7 @@ class WebVRPage extends Component {
                  Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
               </p>
               <p>
-                 Drag your mouse on the screen to look around ( the sky will takes time to load )<br/>
+                 Drag your mouse on the screen to look around ( the sky will take time to load )<br/>
               </p>
               <p>
                  Use keyboard 'w' 'a' 's' 'd' to move the rotating coffee cup around.<br/>
