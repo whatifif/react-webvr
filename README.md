@@ -12,15 +12,13 @@ A demo of this web application is running on a free [See Demo https://react-webv
 
 `Click the button again to exit the WebVR 3D space and return to 2D page.`
 
-`Drag your mouse on the screen to see around ( the sky will takes time to load )`
+`Drag your mouse on the screen to look around ( the sky will takes time to load )`
 
-`Use keyboard 'w' 'a' 's' 'd' to move coffee cup around.`
+`Use your keyboard 'w' 'a' 's' 'd' to move coffee cup around.`
 
 ### Project
 
 This project is to demonstrate the WebVR using aframe and react.
-
-The WebVR 2D page is intentionally not removed to demonstrate 2D and 3D can coexists.
 
 This project is inspired by [RSpace/aframe-meetup-example](https://github.com/rspace/aframe-meetup-example).
 
