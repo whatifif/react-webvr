@@ -34,9 +34,9 @@ class WebVRPage extends Component {
                   <p>
                      Click the "Into WebVR" button above to enter the WebVR 3D space.<br/>
                   </p>
-                  <p>
+                  <div>
                      <h5><strong>Click the button again  </strong></h5>to exit the WebVR 3D space and return to 2D page.<br/>
-                  </p>
+                  </div>
                   <p>
                      Drag your mouse on the screen to look around ( the sky will take time to load )<br/>
                   </p>
@@ -62,9 +62,9 @@ class WebVRPage extends Component {
               <p>
                 Welcome to WebVR Demo page.<br/>
               </p>
-              <p>
+              <div>
                  <h5><strong>Click the "Into WebVR" button above</strong></h5> to enter the WebVR 3D space.<br/>
-              </p>
+              </div>
               <p>
                  Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
               </p>
