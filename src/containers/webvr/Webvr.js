@@ -4,7 +4,8 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 
-import img_url from '../../../site/img/coffee.png';
+// import img_url from '../../../site/img/coffee.png';
+import img_url from '../../../site/img/cup/cup.jpg';
 import WebVRScene from './WebVRScene';
 
 class WebVRPage extends Component {
