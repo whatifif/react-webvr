@@ -20,7 +20,7 @@ export default class Cup extends Component {
 
 		    <Entity loader={{src: 'url(./dist/cup/cup.dae)', format: 'collada'}}
               scale="3 3 3"
-              position="3 2 -5"
+              position="3 1.6 -5"
               material={{color: this.state.color}}
 			  onClick={this.changeColor} onMouseEnter={()=>{}} onMouseLeave={()=>{}}
               >
