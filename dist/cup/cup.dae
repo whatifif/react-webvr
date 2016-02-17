@@ -21,7 +21,7 @@ dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
   </asset>
   <library_images>
     <image id="file1" name="file1">
-      <init_from>file:///C:/Users/Glen/Documents/maya/projects/plasticarmstore/scenes/models/props/household/coffeeMug1/sourceimages/freeMug3.png</init_from>
+      <init_from>./freeMug3.png</init_from>
       <extra>
         <technique profile="MAYA">
           <dgnode_type>kFile</dgnode_type>
