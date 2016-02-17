@@ -35,7 +35,7 @@ class WebVRPage extends Component {
                      Click the "Into WebVR" button above to enter the WebVR 3D space.<br/>
                   </p>
                   <p>
-                     Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
+                     <h5><strong>Click the button again  </strong></h5>to exit the WebVR 3D space and return to 2D page.<br/>
                   </p>
                   <p>
                      Drag your mouse on the screen to look around ( the sky will take time to load )<br/>
@@ -63,7 +63,7 @@ class WebVRPage extends Component {
                 Welcome to WebVR Demo page.<br/>
               </p>
               <p>
-                 Click the "Into WebVR" button above to enter the WebVR 3D space.<br/>
+                 <h5><strong>Click the "Into WebVR" button above</strong></h5> to enter the WebVR 3D space.<br/>
               </p>
               <p>
                  Click the button again to exit the WebVR 3D space and return to 2D page.<br/>
@@ -79,10 +79,12 @@ class WebVRPage extends Component {
               </p>
               <p style={{textAlign:'center'}}>
               <img src={man_url} style={{width:"237px", height:"500px"}} />
+              This person will enter 3D space.<br/>
               </p>
-             </div>
+          </div>
           <div className="col-md-4">
-            <img src={img_url} style={{width:"300px", height:"300px"}}/>
+            <img src={img_url} style={{width:"300px", height:"300px"}}/><br/><br/>
+            <p>This cup will enter 3D space.</p>
           </div>
         </div>
       );      
