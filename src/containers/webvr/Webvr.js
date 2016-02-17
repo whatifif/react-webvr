@@ -4,7 +4,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 
-// import img_url from '../../../site/img/coffee.png';
+import man_url from '../../../site/img/man/man.png';
 import img_url from '../../../site/img/cup/cup.jpg';
 import WebVRScene from './WebVRScene';
 
@@ -76,6 +76,9 @@ class WebVRPage extends Component {
               </p>  
               <p>
                 <a href="/about">This is test link leading to the About page.</a> 
+              </p>
+              <p style={{textAlign:'center'}}>
+              <img src={man_url} style={{width:"237px", height:"500px"}} />
               </p>
              </div>
           <div className="col-md-4">
